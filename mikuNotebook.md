@@ -24,7 +24,13 @@ Met with Professor Garcia to go over the M.O. and proposal.
 Seminar Presentation #1
 
 *Reflection:*
+My first seminar presentation was quite nervewracking, as I am really not skilled at public speaking. However, I believe that public speaking is a critical skill to have and hope to improve with each presentation.
+
+Before my next presentation (which is next class), I will email Rachel a list of fields that I think should be included in the workflow and hopefully receive some feedback and some data to work with. I will also make a test workflow in Google Sheets to familiarize myself with its functions, pivot tables, and Google Apps Script and try to figure out how I will use these resources in the workflow.
 
 
-#### February 11, 2018
-Made a test workflow on Google Sheets.
+#### February 12, 2018
+Seminar Presentation #2
+
+*Reflection:*
+I think that my second seminar presentation was really helpful, and I liked that people were able to chime in and ask thought-provoking questions. I also received helpful questions to ask Rachel some more about the system.
