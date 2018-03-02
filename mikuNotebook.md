@@ -56,9 +56,9 @@ Aggregating and normalizing age data:
 *Version 1 (Static)*
 
 Counting number of children that are 1:
-
+```
 =COUNTIF(Sheet1!E2:J526, "1")
-
+```
 Use same formula for ages 2-12+
 
 Problem: what if number of entries changes?
@@ -68,11 +68,10 @@ Problem: what if number of entries changes?
 Counting number of children that are 1:
 
 Where E2=526,
-
+```
 ="Sheet1!E2:J"&E2 //call this dynamicRange
-
 =COUNTIF(indirect(dynamicRange), "1")
-
+```
 Problems: 
 - Director still has to manually input the number of entries (not a huge problem in my opinion)
 - Does not count entries that were entered incorrectly
@@ -110,10 +109,7 @@ console.log("Records between 6:00PM - 7:00PM: " + reg6PM);
 console.log("Records between 7:00PM - 8:00PM: " + reg7PM);
 console.log("Records between 8:00AM - 9:00AM: " + reg8AM);
 console.log("Records between 10:00AM - 11:00AM: " + reg10AM);
-
 ```
-
-
 
 #### February 26, 2018
 Seminar Presentation #3
