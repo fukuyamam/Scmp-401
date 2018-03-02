@@ -73,6 +73,47 @@ Where E2=526,
 
 =COUNTIF(indirect(dynamicRange), "1")
 
+Problems: 
+- Director still has to manually input the number of entries (not a huge problem in my opinion)
+- Does not count entries that were entered incorrectly
+- Not robust
+
+
+Normalizing hourly data:
+
+Following code works in jsfiddle but not the Google Script editor
+
+```
+var data = `
+	1/21/2018 6:00PM
+  1/21/2018 7:00PM
+  1/21/2018 6:21PM
+  1/21/2018 3:00PM
+  1/21/2018 6:00PM
+  1/21/2018 8:03AM
+  1/21/2018 10:21AM
+  1/21/2018 10:00AM
+  `
+  
+var arrayData = [];
+var data2 = JSON.stringify(arrayData);
+
+// PM Times
+var reg6PM = data.match(/6:.*PM/gi).length; //Change data. to data2. if in array. 
+var reg7PM = data.match(/7:.*PM/gi).length; //Change data. to data2. if in array.
+
+// AM Times
+var reg8AM = data.match(/8:.*AM/gi).length; //Change data. to data2. if in array.
+var reg10AM = data.match(/10:.*AM/gi).length; //Change data. to data2. if in array.
+
+console.log("Records between 6:00PM - 7:00PM: " + reg6PM);
+console.log("Records between 7:00PM - 8:00PM: " + reg7PM);
+console.log("Records between 8:00AM - 9:00AM: " + reg8AM);
+console.log("Records between 10:00AM - 11:00AM: " + reg10AM);
+
+```
+
+
 
 #### February 26, 2018
 Seminar Presentation #3
