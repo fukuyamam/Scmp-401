@@ -51,6 +51,7 @@ Goals before next presentation:
 - Normalize hourly data
 
 
+
 Aggregating and normalizing age data:
 
 *Version 1 (Static)*
@@ -78,9 +79,10 @@ Problems:
 - Not robust
 
 
+
 Normalizing hourly data:
 
-Following code works in jsfiddle but not the Google Script editor
+Following code works in jsfiddle but not in the Google Script editor
 
 ```
 var data = `
@@ -111,8 +113,15 @@ console.log("Records between 8:00AM - 9:00AM: " + reg8AM);
 console.log("Records between 10:00AM - 11:00AM: " + reg10AM);
 ```
 
+
 #### February 26, 2018
 Seminar Presentation #3
 
 *Reflection:*
-I think that my third seminar presentation went better than any of my other presentations. I felt slightly more comfortable speaking, and again, people gave very helpful feedback and gave me ideas that I had never thought of. I was having a lot of trouble normalizing the time data using regex, but one of my classmates informed me that hourly data can be compared in Google sheets so that regex would not be necessary.
+I think that my third seminar presentation was my best one yet. Once again, people gave me valuable feedback and suggestions. One of my classmates informed me that hourly data can be compared in Google Sheets so RegExp is not necessary. Seeing as I can't get RegExp to work in the Script editor, I will give this a try.
+
+
+
+#### February 27, 2018
+Went to SPI to see data input process
+- Lots of issues with the database
