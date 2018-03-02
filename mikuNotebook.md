@@ -12,8 +12,10 @@ Meeting notes:
 - Will be using Python
 
 
+
 #### February 3, 2018
 Met with the director of SPI Spot, Rachel Garcia, to discuss a potential project.
+
 
 
 #### February 4, 2018
@@ -21,13 +23,14 @@ Met with Professor Garcia to go over the M.O. and proposal for the SPI workflow 
 - Will create workflow using Google Sheets and its functions, Google Apps Script, and Google Sheets pivot table interface
 
 
+
 #### February 5, 2018
 Seminar Presentation #1
 
 *Reflection:*
-My first seminar presentation pretty stressful, 
+My first seminar presentation was pretty stressful, as I am really not good at public speaking. However, I believe that public speaking is a crucial skill to have and hope to improve with each presentation throughout the semester.
+Before my next presentation (which is next class), I am going to email Rachel a list of fields that I think should be included in the workflow and ask if she can send me some data to work with. I also plan on making a test workflow in Google Sheets to familiarize myself with Google Sheets and its functions, pivot tables, and Google Apps Script. This test workflow 
 
-My first seminar presentation was quite nervewracking, as I am really not skilled at public speaking. However, I believe that public speaking is a critical skill to have and hope to improve with each presentation.
 
 Before my next presentation (which is next class), I will email Rachel a list of fields that I think should be included in the workflow and hopefully receive some feedback and some data to work with. I will also make a test workflow in Google Sheets to familiarize myself with its functions, pivot tables, and Google Apps Script and try to figure out how I will use these resources in the workflow.
 
