@@ -29,20 +29,50 @@ Seminar Presentation #1
 
 *Reflection:*
 My first seminar presentation was pretty stressful, as I am really not good at public speaking. However, I believe that public speaking is a crucial skill to have and hope to improve with each presentation throughout the semester.
-Before my next presentation (which is next class), I am going to email Rachel a list of fields that I think should be included in the workflow and ask if she can send me some data to work with. I also plan on making a test workflow in Google Sheets to familiarize myself with Google Sheets and its functions, pivot tables, and Google Apps Script. This test workflow 
+Before my next presentation (which is next class), I am going to email Rachel a list of fields that I think should be included in the workflow and ask if she can send me some data to work with. I also plan on making a test workflow in Google Sheets to familiarize myself with Google Sheets and its functions, pivot tables, and Google Apps Script, as well as to determine how I will utilize these resources in the actual workflow.
 
 
-Before my next presentation (which is next class), I will email Rachel a list of fields that I think should be included in the workflow and hopefully receive some feedback and some data to work with. I will also make a test workflow in Google Sheets to familiarize myself with its functions, pivot tables, and Google Apps Script and try to figure out how I will use these resources in the workflow.
+#### Week of February 5, 2018
+Created the test workflow earlier in the week before receiving some real data later in the week.
+
 
 
 #### February 12, 2018
 Seminar Presentation #2
 
 *Reflection:*
-I think that my second seminar presentation was really helpful, and I liked that people were able to chime in and ask thought-provoking questions. I also received helpful questions to ask Rachel some more about the system.
+I think that my second seminar presentation went much better than my first, and I think it was because I had a better understanding of what my project entailed this time around. I think the informal format of the presentation also helped me to be less nervous. I liked that people were able to chime in and offer feedback and suggestions, and ask thought-provoking questions that I had not even thought of, many of which I plan to ask Rachel sometime this week.
+
+
 
 #### Week of February 19, 2018
-I was able to use the countif function in Google Sheets to create a static version of the age data, and then with the identify function I was able to create a dynamic version of the age data, where the only necessary input is the number of entries, which the person that would be normalizing the data would have to enter.
+Goals before next presentation:
+- Aggregate and normalize age data
+- Normalize hourly data
+
+
+Aggregating and normalizing age data:
+
+*Version 1 (Static)*
+
+Counting number of children that are 1:
+
+=COUNTIF(Sheet1!E2:J526, "1")
+
+Use same formula for ages 2-12+
+
+Problem: what if number of entries changes?
+
+*Version 2 (Dynamic)*
+
+Counting number of children that are 1:
+
+Where E2=526,
+
+="Sheet1!E2:J"&E2 //call this dynamicRange
+
+=COUNTIF(indirect(dynamicRange), "1")
+
 
 #### February 26, 2018
 Seminar Presentation #3
