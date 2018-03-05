@@ -1,7 +1,7 @@
 ### Miku Fukuyama
 Scmp 401 Notebook :notebook:
 
-#### January 30, 2018
+### January 30, 2018
 Met with Professor Glandon and Bennett to discuss project ideas.
 
 Meeting notes:
@@ -13,18 +13,18 @@ Meeting notes:
 
 
 
-#### February 3, 2018
+### February 3, 2018
 Met with the director of SPI Spot, Rachel Garcia, to discuss a potential project.
 
 
 
-#### February 4, 2018
+### February 4, 2018
 Met with Professor Garcia to go over the M.O. and proposal for the SPI workflow project.
 - Will create workflow using Google Sheets and its functions, Google Apps Script, and Google Sheets pivot table interface
 
 
 
-#### February 5, 2018
+### February 5, 2018
 Seminar Presentation #1
 
 *Reflection:*
@@ -32,12 +32,12 @@ My first seminar presentation was pretty stressful, as I am really not good at p
 Before my next presentation (which is next class), I am going to email Rachel a list of fields that I think should be included in the workflow and ask if she can send me some data to work with. I also plan on making a test workflow in Google Sheets to familiarize myself with Google Sheets and its functions, pivot tables, and Google Apps Script, as well as to determine how I will utilize these resources in the actual workflow.
 
 
-#### Week of February 5, 2018
+### Week of February 5, 2018
 Created the test workflow earlier in the week before receiving some real data later in the week.
 
 
 
-#### February 12, 2018
+### February 12, 2018
 Seminar Presentation #2
 
 *Reflection:*
@@ -45,7 +45,7 @@ I think that my second seminar presentation went much better than my first, and 
 
 
 
-#### Week of February 19, 2018
+### Week of February 19, 2018
 Goals before next presentation:
 - Aggregate and normalize age data
 - Normalize hourly data
@@ -114,7 +114,7 @@ console.log("Records between 10:00AM - 11:00AM: " + reg10AM);
 ```
 
 
-#### February 26, 2018
+### February 26, 2018
 Seminar Presentation #3
 
 *Reflection:*
@@ -122,6 +122,6 @@ I think that my third seminar presentation was my best one yet. Once again, peop
 
 
 
-#### February 27, 2018
+### February 27, 2018
 Went to SPI to see data input process
 - Lots of issues with the database
