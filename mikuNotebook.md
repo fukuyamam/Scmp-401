@@ -135,3 +135,13 @@ Seminar Presentation #4
 
 *Reflection:*
 edit this My goal for my last seminar presentation was to get as much helpful feedback out of my classmates once again. They agreed that the method that I am currently employing to handle daylight savings time was the best way. I just have to write the new function that will address it in the spreadsheet. I also got an idea on how to display the workflow. Kara suggested that I collect all of the relevant information into a separate tab on the spreadsheet so that it is easily viewable for the director. I think that these presentations were a valuable resource, and although they were nervewracking sometimes, they were definitely helpful and my classmates were able to give me a lot of good comments and help the project progress.
+
+### April 16, 2018
+This week, drew a UI mockup for the workflow. *insert here*
+Figured out what I want for the user in terms of graphics and extractions of the data
+Potential issues that may arise...
+
+
+
+
+### April 23, 2018
