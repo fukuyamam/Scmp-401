@@ -148,5 +148,47 @@ Potential issues that may arise...
 This week, I had a lot of trouble finalizing the project. There are basic functionality that will be useful to the director. However, certain key aspects still have to be worked out. I have gotten transctions per hour and the number of children coming in as a function of their ages. Those are two that the director wanted. However, I am having trouble figuring out how to get certain fields as a function of time. For example, I would like to have the ages of chidren as a function of time. In other words, I would like to see the number of 1 year olds coming in from 10:11, etc. I would also like to see what time the members of the Sue Family Access Program are coming in. However, this has proved to be much more difficult than I had originally anticipated, due to misunderstandings I had about the built-in functions of Google Sheets. For example, I think it is super annoying that the countifs function has to have the same number of columns over all criteria. Like why is that important if I just want to check whether these things hold and then count the number of times that all of the criteria hold?
 
 
+This function would work I think if you could use the transpose function built into google sheets in the google apps script editor but of course you can't.
+
+```
+//Ages by hour function
+function transposeDateAges(numChildren, age1, age2, age3, age4, age5, age6, date) {
+  if (numChildren == 1) {
+    transpose({date: age1});
+  }
+  if (numChildren == 2) {
+    transpose({date: age1});
+    transpose({date: age2});
+  }
+  if (numChildren == 3) {
+    transpose({date: age1});
+    transpose({date: age2});
+    transpose({date: age3});
+  }
+  if (numChildren == 4) {
+    transpose({date: age1});
+    transpose({date: age2});
+    transpose({date: age3});
+    transpose({date: age4});
+  }
+  if (numChildren == 5) {
+    transpose({date: age1});
+    transpose({date: age2});
+    transpose({date: age3});
+    transpose({date: age4});
+    transpose({date: age5});
+  }
+  if (numChildren == 6) {
+    transpose({date: age1});
+    transpose({date: age2});
+    transpose({date: age3});
+    transpose({date: age4});
+    transpose({date: age5});
+    transpose({date: age6});
+  } 
+}
+```
+
+
 ### April 30, 2018
 I don't think that I will be able to figure out these issues I have been working on for the past few days before tonight's class and I am worried but I'm going to try. I thought I had a brute force way of doing it but there was some circular dependency issue with it and also it's pretty inelegant and really messy. The brute force way was essentially just doing the same thing she does (counting all of the people who are 1 years old in the Age of Child 1 field, in the Age of Child 2 field, etc.) except automating it, which I think is awful.
