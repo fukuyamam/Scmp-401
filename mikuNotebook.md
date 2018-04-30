@@ -33,7 +33,7 @@ Before my next presentation (which is next class), I am going to email Rachel a 
 
 
 ### Week of February 5, 2018
-Created the test workflow earlier in the week before receiving some real data later in the week.
+Created the test workflow earlier in the week before receiving some real data later in the week (data is from the beginning of 2018 to 2/11/18).
 
 
 
@@ -118,7 +118,7 @@ console.log("Records between 10:00AM - 11:00AM: " + reg10AM);
 Seminar Presentation #3
 
 *Reflection:*
-I think that my third seminar presentation was my best one yet. Once again, people gave me valuable feedback and suggestions. One of my classmates informed me that hourly data can be compared in Google Sheets so RegExp is not necessary. Seeing as I can't get RegExp to work in the Script editor, I will give this a try.
+I think that my third seminar presentation was my best one yet. Once again, people gave me valuable feedback and suggestions. One of my classmates informed me that hourly data can be compared in Google Sheets (although this turned out not to be true) so RegExp is not necessary. Seeing as I can't get RegExp to work in the Script editor, I will give this a try.
 
 
 
